@@ -10,14 +10,17 @@ const wireframeMat = new MeshBasicMaterial({wireframe: true, color: '#1e3465'})
 
 export function Palm(props) {
   const { nodes, materials } = useGLTF("/palm.glb");
+  const { palmWireframe, setPalmWireframe } = props;
   return (
     <group {...props} dispose={null}>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Node.geometry}
-        material={wireframeMat}
+        material={palmWireframe ? wireframeMat : materials.SunshinePalmTree_mat}
         wireframe
+        onPointerEnter={() => {setPalmWireframe(true); console.log('gay')}}
+        onPointerLeave={() => {setPalmWireframe(false); console.log('gay')}}
       />
     </group>
   );
