@@ -19,8 +19,8 @@ export function Palm(props) {
         geometry={nodes.Node.geometry}
         material={palmWireframe ? wireframeMat : materials.SunshinePalmTree_mat}
         wireframe
-        onPointerEnter={() => {setPalmWireframe(true); console.log('gay')}}
-        onPointerLeave={() => {setPalmWireframe(false); console.log('gay')}}
+        onPointerEnter={() => {setPalmWireframe(true); console.log('enter')}}
+        onPointerLeave={() => {setPalmWireframe(false); console.log('leave')}}
       />
     </group>
   );
