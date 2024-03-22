@@ -14,7 +14,7 @@ export const IntroText = () => {
 
         <div className=' flex justify-end'>
           <div className="w-1/3 bg-[#0d1230]">
-            <p className="text-white text-[0.85rem] sm:text-[1rem] md:text-[1.5rem] xl:text-[2rem] 2xl:text-[3rem] p-8 font-semibold leading-tight " >
+            <p className="text-white text-[0.85rem] sm:text-[1rem] md:text-[1.5rem] xl:text-[2rem] 2xl:text-[3rem] p-2 py-4 md:p-8 font-semibold leading-tight " >
               <span className='text-[#00ff84]'>{'{HNL}'}</span><br />PROGRAMMING<br />STUDY GROUP
             </p>
           </div>
