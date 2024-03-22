@@ -46,9 +46,9 @@ export const IntroText = () => {
           <p className='text-slate-600 font-extralight'>
             <span className='text-2xl font-bold'>Then come join us!</span>
             <br />
-            We're a friendly group of people who want to learn together.
+            We&apos;re a friendly group of people who want to learn together.
             <br />
-            Every couple of months we select a new course to follow and meet once a week until we're done.
+            Every couple of months we select a new course to follow and meet once a week until we&apos;re done.
             <br />
             The meetups will always be free, but we will be using paid tutorials.
           </p>
